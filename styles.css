@@ -16,13 +16,20 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   width: 327px;
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: -10px;
 }
 .mode {
   display: flex;
   align-items: flex-end;
   gap: 26px;
+}
+.theme-txt {
+  margin-bottom: 6px;
 }
 .theme {
   display: flex;
@@ -32,6 +39,7 @@ header {
 .theme-number {
   display: flex;
   gap: 15px;
+  margin-bottom: 10px;
 }
 
 .toggle {
@@ -88,6 +96,7 @@ p {
   padding-right: 24px;
   text-align: end;
   font-size: 40px;
+  margin-top: 30px;
 }
 .container {
   border-radius: 10px;
@@ -105,6 +114,8 @@ button {
   box-shadow: inset 0px -4px 0px #b3a497;
   font-family: "League Spartan";
   font-size: 32px;
+  background-color: rgb(223, 223, 223);
+  color: black;
 }
 button:hover {
   background-color: white;
